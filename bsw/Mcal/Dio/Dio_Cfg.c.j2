@@ -1,0 +1,12 @@
+#include "Dio_Cfg.h"
+
+/* Auto-generated from ARXML */
+
+/* Channel Initialization */
+void DIO_Init(void)
+{
+{% for ch in dio_channels %}
+    /* Initialize {{ ch.name }} */
+    {{ ch.name }}_Init();
+{% endfor %}
+}

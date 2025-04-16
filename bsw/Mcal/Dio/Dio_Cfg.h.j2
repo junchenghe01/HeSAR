@@ -1,0 +1,12 @@
+#ifndef DIO_CFG_H
+#define DIO_CFG_H
+
+/* Auto-generated from ARXML */
+
+#define DIO_TOTAL_CHANNELS {{ dio_channels | length }}
+
+{% for ch in dio_channels %}
+#define {{ ch.name }}    {{ ch.id }}   /* {{ ch.port }}{{ ch.pin }}, {{ ch.direction }} */
+{% endfor %}
+
+#endif /* DIO_CFG_H */
