@@ -1,0 +1,20 @@
+[
+{
+  "directory": "E:/Documents/SourceTree/Source/HeSAR/build/bsw/os",
+  "command": "D:\\ProgramData\\mingw64\\bin\\gcc.exe  @CMakeFiles/os_lib.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\os_lib.dir\\scheduler.c.obj -c E:\\Documents\\SourceTree\\Source\\HeSAR\\bsw\\os\\scheduler.c",
+  "file": "E:/Documents/SourceTree/Source/HeSAR/bsw/os/scheduler.c",
+  "output": "bsw/os/CMakeFiles/os_lib.dir/scheduler.c.obj"
+},
+{
+  "directory": "E:/Documents/SourceTree/Source/HeSAR/build/bsw/os",
+  "command": "D:\\ProgramData\\mingw64\\bin\\gcc.exe  @CMakeFiles/os_lib.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\os_lib.dir\\task.c.obj -c E:\\Documents\\SourceTree\\Source\\HeSAR\\bsw\\os\\task.c",
+  "file": "E:/Documents/SourceTree/Source/HeSAR/bsw/os/task.c",
+  "output": "bsw/os/CMakeFiles/os_lib.dir/task.c.obj"
+},
+{
+  "directory": "E:/Documents/SourceTree/Source/HeSAR/build/test",
+  "command": "D:\\ProgramData\\mingw64\\bin\\gcc.exe  @CMakeFiles/test_exec.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\test_exec.dir\\test.c.obj -c E:\\Documents\\SourceTree\\Source\\HeSAR\\test\\test.c",
+  "file": "E:/Documents/SourceTree/Source/HeSAR/test/test.c",
+  "output": "test/CMakeFiles/test_exec.dir/test.c.obj"
+}
+]

@@ -1,0 +1,2 @@
+D:\ProgramData\mingw64\bin\ar.exe qc libos_lib.a CMakeFiles/os_lib.dir/scheduler.c.obj CMakeFiles/os_lib.dir/task.c.obj
+D:\ProgramData\mingw64\bin\ranlib.exe libos_lib.a
